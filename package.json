@@ -1,1 +1,28 @@
-{"name":"encryption-utils","version":"1.0.0","main":"dist/index.js","types":"dist/index.d.ts","scripts":{"build":"tsc","test":"jest"},"keywords":["ferrow"],"license":"MIT"}
+{
+  "name": "encryption-utils",
+  "version": "2.0.0",
+  "description": "Node crypto helpers implemented for real: AES-256-GCM encrypt/decrypt with a portable payload format, scrypt key derivation, timing-safe HMAC-SHA256 sign/verify, and RSA-OAEP encrypt/decrypt with a key-pair generator.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "encryption",
+    "aes-256-gcm",
+    "crypto",
+    "hmac",
+    "rsa-oaep",
+    "scrypt",
+    "typescript"
+  ],
+  "author": "Ruzylo-cloud",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
