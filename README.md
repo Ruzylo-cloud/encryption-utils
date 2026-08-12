@@ -1,4 +1,5 @@
 # encryption-utils
+![CI](https://github.com/FerrowAI/encryption-utils/actions/workflows/ci.yml/badge.svg)
 
 Small, real implementations of the crypto primitives you actually reach
 for, built directly on Node's `crypto` module. No third-party dependency,
