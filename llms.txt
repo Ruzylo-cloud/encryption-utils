@@ -1,0 +1,23 @@
+# encryption-utils
+> Node crypto helpers implemented for real: AES-256-GCM encrypt/decrypt with a portable payload format, scrypt key derivation, timing-safe HMAC-SHA256 sign/verify, and RSA-OAEP encrypt/decrypt with a key-pair generator.
+
+Small, real implementations of the crypto primitives you actually reach for, built directly on Node's `crypto` module. No third-party dependency, no home-grown cipher — just a sane API around what Node already ships.
+
+## API
+- `encrypt`
+- `decrypt`
+- `decryptToString`
+- `DeriveKeyOptions`
+- `deriveKey`
+- `generateSalt`
+- `hmacSign`
+- `hmacVerify`
+- `RsaKeyPair`
+- `generateKeyPair`
+- `rsaEncrypt`
+- `rsaDecrypt`
+
+## Install
+Each library is a standalone GitHub repo under github.com/Ruzylo-cloud.
+
+Part of the Ferrow open-source toolkit: https://github.com/Ruzylo-cloud/ferrow-toolkit — sponsored by https://ferrow.ai
