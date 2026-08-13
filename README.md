@@ -13,7 +13,7 @@ anything with legal or safety consequences.
 ## Install
 
 ```bash
-npm install encryption-utils
+npm install @ferrow/encryption-utils
 ```
 
 ## Quickstart

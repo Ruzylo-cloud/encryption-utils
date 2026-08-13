@@ -1,5 +1,5 @@
 {
-  "name": "encryption-utils",
+  "name": "@ferrow/encryption-utils",
   "version": "2.0.0",
   "description": "Node crypto helpers implemented for real: AES-256-GCM encrypt/decrypt with a portable payload format, scrypt key derivation, timing-safe HMAC-SHA256 sign/verify, and RSA-OAEP encrypt/decrypt with a key-pair generator.",
   "main": "dist/index.js",
